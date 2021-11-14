@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="untitled:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/untitled_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="untitled/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="untitled" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../fastjson-1.2.76.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../sum/sqljdbc_7.0.0.0_chs/sqljdbc_7.0/chs/mssql-jdbc-7.0.0.jre8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-io-2.10.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-fileupload-1.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

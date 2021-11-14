@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="myweb@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>11.0.2100</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="OA">
+      <ObjectId>8</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="ReportServer">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="4" parent="1" name="ReportServerTempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="5" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="myweb">
+      <ObjectId>9</ObjectId>
+      <Current>1</Current>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+      <Fingerprint>9.44311/0A7DF21C-762E-4CEE-863D-AB59EB5B33B5@DESKTOP-3C3OR0Q</Fingerprint>
+    </database>
+    <database id="9" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="test">
+      <ObjectId>7</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="11" parent="8" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="12" parent="8" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="13" parent="8" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="14" parent="8" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="15" parent="8" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="16" parent="8" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="17" parent="8" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="18" parent="8" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="19" parent="8" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="20" parent="8" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="21" parent="8" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2021-06-05.22:17:19.103</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="22" parent="8" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="23" parent="8" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="24" parent="21" name="BOOK_DESK">
+      <ObjectId>421576540</ObjectId>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="21" name="BOOK_MENU">
+      <ObjectId>1621580815</ObjectId>
+      <CreatedTimestamp>2021-05-08.08:21:54.250</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-08.08:21:54.250</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="21" name="COMMENT">
+      <ObjectId>245575913</ObjectId>
+      <CreatedTimestamp>2021-04-27.03:41:47.693</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.693</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="21" name="INFORMATION">
+      <ObjectId>277576027</ObjectId>
+      <CreatedTimestamp>2021-04-27.03:41:47.697</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.697</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="21" name="MENU">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2021-05-04.21:02:34.093</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-04.21:02:34.093</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="21" name="RESTAURANT">
+      <ObjectId>309576141</ObjectId>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+    </table>
+    <column id="30" parent="24" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="24" name="BOOK_ID">
+      <Position>2</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="32" parent="24" name="USERNAME">
+      <Position>3</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="33" parent="24" name="TYPE">
+      <Position>4</Position>
+      <DataType>char(500 char)|0s</DataType>
+    </column>
+    <column id="34" parent="24" name="TIME">
+      <Position>5</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="35" parent="25" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="25" name="MENU_ID">
+      <Position>2</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="37" parent="25" name="USERNAME">
+      <Position>3</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="38" parent="25" name="MENU_TEXT">
+      <Position>4</Position>
+      <DataType>char(7000 char)|0s</DataType>
+    </column>
+    <column id="39" parent="25" name="MENU_NUM">
+      <Position>5</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="40" parent="25" name="TYPE">
+      <Position>6</Position>
+      <DataType>char(500 char)|0s</DataType>
+    </column>
+    <column id="41" parent="26" name="USERID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="26" name="NAME">
+      <Position>2</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="43" parent="26" name="TEXT">
+      <Position>3</Position>
+      <DataType>char(1500 char)|0s</DataType>
+    </column>
+    <column id="44" parent="26" name="TIME">
+      <Position>4</Position>
+      <DataType>char(50 char)|0s</DataType>
+    </column>
+    <column id="45" parent="26" name="DING">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="46" parent="27" name="ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="27" name="USERNAME">
+      <Position>2</Position>
+      <DataType>char(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="27" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>char(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="27" name="NAME">
+      <Position>4</Position>
+      <DataType>char(200 char)|0s</DataType>
+    </column>
+    <column id="50" parent="27" name="PHONE">
+      <Position>5</Position>
+      <DataType>char(200 char)|0s</DataType>
+    </column>
+    <column id="51" parent="27" name="ADDRESS">
+      <Position>6</Position>
+      <DataType>char(2000 char)|0s</DataType>
+    </column>
+    <column id="52" parent="27" name="MANAGEMENT">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="53" parent="27" name="UQ__INFORMAT__B15BE12E3DE7B95A">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="27" name="UQ__INFORMAT__B15BE12E3DE7B95A">
+      <ObjectId>293576084</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-27.03:41:47.697</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.697</ModifiedTimestamp>
+      <ColNames>USERNAME</ColNames>
+      <UnderlyingIndexName>UQ__INFORMAT__B15BE12E3DE7B95A</UnderlyingIndexName>
+    </key>
+    <column id="55" parent="28" name="MENUID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="28" name="SPECIES">
+      <Position>2</Position>
+      <DataType>char(500 char)|0s</DataType>
+    </column>
+    <column id="57" parent="28" name="NAME">
+      <Position>3</Position>
+      <DataType>char(500 char)|0s</DataType>
+    </column>
+    <column id="58" parent="28" name="PRICE">
+      <Position>4</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="59" parent="28" name="PICTURE">
+      <Position>5</Position>
+      <DataType>char(500 char)|0s</DataType>
+    </column>
+    <column id="60" parent="29" name="NAME">
+      <Position>1</Position>
+      <DataType>char(20 char)|0s</DataType>
+    </column>
+    <column id="61" parent="29" name="NINE">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="62" parent="29" name="ELEVEN">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="63" parent="29" name="THIRTEEN">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="64" parent="29" name="FIFTEEN">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="65" parent="29" name="SEVENTEEN">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="66" parent="29" name="NINETEEN">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <check id="67" parent="29" name="CK__RESTAURAN__ELEVE__145C0A3F">
+      <ObjectId>341576255</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+      <ColNames>ELEVEN</ColNames>
+      <Predicate>[ELEVEN]&gt;=0</Predicate>
+    </check>
+    <check id="68" parent="29" name="CK__RESTAURAN__FIFTE__164452B1">
+      <ObjectId>373576369</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+      <ColNames>FIFTEEN</ColNames>
+      <Predicate>[FIFTEEN]&gt;=0</Predicate>
+    </check>
+    <check id="69" parent="29" name="CK__RESTAURAN__NINET__182C9B23">
+      <ObjectId>405576483</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+      <ColNames>NINETEEN</ColNames>
+      <Predicate>[NINETEEN]&gt;=0</Predicate>
+    </check>
+    <check id="70" parent="29" name="CK__RESTAURANT__NINE__1367E606">
+      <ObjectId>325576198</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+      <ColNames>NINE</ColNames>
+      <Predicate>[NINE]&gt;=0</Predicate>
+    </check>
+    <check id="71" parent="29" name="CK__RESTAURAN__SEVEN__173876EA">
+      <ObjectId>389576426</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+      <ColNames>SEVENTEEN</ColNames>
+      <Predicate>[SEVENTEEN]&gt;=0</Predicate>
+    </check>
+    <check id="72" parent="29" name="CK__RESTAURAN__THIRT__15502E78">
+      <ObjectId>357576312</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-27.03:41:47.700</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-27.03:41:47.700</ModifiedTimestamp>
+      <ColNames>THIRTEEN</ColNames>
+      <Predicate>[THIRTEEN]&gt;=0</Predicate>
+    </check>
+  </database-model>
+</dataSource>
